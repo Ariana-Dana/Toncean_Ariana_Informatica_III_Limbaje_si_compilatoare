@@ -1,0 +1,3 @@
+DECL int x
+x = 5
+PRINT x

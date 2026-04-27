@@ -1,0 +1,7 @@
+int x;
+bool ok;
+x = 10;
+ok = x > 3;
+if (ok) {
+    print(x);
+}

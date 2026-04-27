@@ -1,0 +1,15 @@
+int x;
+float y;
+bool ok;
+
+x = 10;
+y = x * 2 + 5.5;
+ok = true;
+
+if (y > 20 && ok) {
+    print(y);
+}
+
+while (x < 15) {
+    x = x + 1;
+}

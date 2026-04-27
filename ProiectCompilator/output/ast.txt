@@ -1,0 +1,15 @@
+Program
+  statements:
+    VarDecl
+      var_type: int
+      name: x
+    Assignment
+      name: x
+      expr:
+        Literal
+          value: 5
+          literal_type: int
+    PrintStmt
+      expr:
+        Variable
+          name: x
